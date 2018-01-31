@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 html {
   font-family: 'Alice', serif;
 }
@@ -15,7 +23,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 200px;
+  width: 12em;
   height: 100%;
   padding: 1em;
   border-right: 0.5em solid #86608e;
@@ -37,6 +45,31 @@ nav {
   padding: 0;
   list-style-type: none;
 }
+#main_menu ul li {
+  margin: 0;
+  padding: 0;
+}
+#main_menu ul li a {
+  display: block;
+  padding: 0.25em;
+  width: 11em;
+}
+#main_menu ul li a:hover {
+  background: #86608e;
+}
 #main_menu h1 {
-  font-size: 1.75em;
+  font-size: 1.25em;
+}
+#content {
+  margin-left: 12em;
+  padding: 1em;
+}
+#content article {
+  padding: 1em;
+  margin-bottom: 1em;
+  border-top: 0.25em solid #c8a2c8;
+  background: #ddd;
+}
+#content article h2 {
+  margin: 0;
 }
