@@ -27,6 +27,7 @@ nav {
   height: 100%;
   padding: 1em;
   border-right: 0.5em solid #86608e;
+  box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.26);
 }
 #main_menu #logo img {
   width: 100%;
@@ -52,9 +53,24 @@ nav {
 #main_menu ul li a {
   display: block;
   padding: 0.25em;
-  width: 11em;
+  width: 9.5em;
+  transition: 0.25s;
 }
 #main_menu ul li a:hover {
+  background: #86608e;
+}
+#main_menu ul li a:after {
+  content: "";
+  display: block;
+  position: relative;
+  float: right;
+  right: -1.5em;
+  top: -0.25em;
+  width: 1.5em;
+  height: 0.25em;
+  transition: 0.25s;
+}
+#main_menu ul li a:hover:after {
   background: #86608e;
 }
 #main_menu h1 {
@@ -63,12 +79,14 @@ nav {
 #content {
   margin-left: 12em;
   padding: 1em;
+  background: url("http://gabriel-damon.com/img/site/circuit.png");
 }
 #content article {
   padding: 1em;
   margin-bottom: 1em;
   border-top: 0.25em solid #c8a2c8;
   background: #ddd;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.26);
 }
 #content article h2 {
   margin: 0;
