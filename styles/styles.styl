@@ -1,5 +1,6 @@
 light_lilac = #C8A2C8
 dark_lilac  = #86608E
+dark_grey   = #222
 
 *
   box-sizing border-box
@@ -9,6 +10,7 @@ html, body
 
 html
   font-family 'Alice', serif
+  color: dark_grey
 h1, h2, h3, h4, h5, h6, nav
   font-family 'Playfair Display', serif
 
@@ -31,7 +33,7 @@ h1, h2, h3, h4, h5, h6, nav
       filter sepia(75%)
   a
     text-decoration none
-    color black
+    color dark_grey
   ul
     margin 0
     padding 0
@@ -42,34 +44,45 @@ h1, h2, h3, h4, h5, h6, nav
       a
         display block
         padding 0.25em
-        // width 9.5em
         width 11em
         transition 0.25s
+        &:before
+          content "❧"
+          opacity 0
+          display inline-block
+          position absolute
+          margin-left -1em
+          transition 0.25s
         &:hover
           background dark_lilac
-          padding-left 0.5em
-        // &:after
-        //   content ""
-        //   display block
-        //   position relative
-        //   float right
-        //   right -1.5em
-        //   top -0.25em
-        //   width 1.5em
-        //   height 0.25em
-        //   transition 0.25s
-        // &:hover:after
-        //   background dark_lilac
+          padding-left 1.5em
+          &:before
+            opacity 1
   h1
     font-size 1.25em
-    transition 0.25s
-    &:hover
-      padding-left 0.5em
+    margin 0
+    a
+      display block
+      width 8.8em
+      padding 0.5em 0
+      transition 0.25s
+      &:before
+          content "❧"
+          opacity 0
+          display inline-block
+          position absolute
+          margin-left -1em
+          transition 0.25s
+      &:hover
+        padding-left 1.4em
+        &:before
+          opacity 1
+
 
 #content
   margin-left 12em
   padding 1em
-  background url("http://gabriel-damon.com/img/site/circuit.png")
+  background url("../media/swirls.jpg")
   article
     text-align justify
     max-width 36em
@@ -82,4 +95,19 @@ h1, h2, h3, h4, h5, h6, nav
       margin-bottom 0
     h2
       margin 0
+      a
+        text-decoration none
+        color dark_grey
+        transition 0.25s
+        &:before
+          content "❧"
+          opacity 0
+          display inline-block
+          position absolute
+          margin-left -1em
+          transition 0.25s
+        &:hover
+          padding-left 1em
+          &:before
+            opacity 1
 
