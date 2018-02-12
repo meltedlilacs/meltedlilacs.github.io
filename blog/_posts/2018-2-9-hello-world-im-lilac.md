@@ -11,7 +11,7 @@ The additional repercussion of being partially closeted for a substantial period
 
 I eventually got so fed up with my cautious approach that I came out on Facebook just to get it out of the way. This meant that some people learned of my identity online who really deserved an in-person conversation, but I was emotionally exhausted from coming out again and again. So this time I'm doing things differently. I'm not going to be cautious or slow.
 
-Hello world, I'm Lilac. I use the pronouns they/them/theirs and she/her/hers.
+Hello world, I'm Lilac. I use the pronouns she/her/hers or they/them/theirs.
 
 Initially I was looking for an androgynous name, but after reading through lengthy lists of names online, I felt somewhat uninspired. So I branched out into slightly more femme names, and after considering other names in similar genres, a friend suggested Lilac.
 
