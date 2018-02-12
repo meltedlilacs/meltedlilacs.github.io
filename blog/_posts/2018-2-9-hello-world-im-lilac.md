@@ -1,4 +1,7 @@
-# Hello world, I'm Lilac
+---
+title: Hello world, I'm Lilac
+layout: page
+---
 
 Last fall when I came out as non-binary, I did so cautiously. First I tried out they/them pronouns anonymously in online chatrooms. This gave me a low risk way to see how comfortably the pronouns fit me. Then I began telling people, first close friends, then parents and sister, and then others on a case-by-case basis. This piecemeal approach allowed me greater control over the pacing, frequency, and participants of the potentially difficult conversations I needed to have with people, which allowed me to reduce my emotional vulnerability. The downside is that this approach carries a large mental and emotional overhead.
 

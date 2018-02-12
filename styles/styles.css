@@ -5,6 +5,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background: #f5efff;
 }
 html {
   font-family: 'Alice', serif;
@@ -147,4 +148,7 @@ nav {
 }
 #content article h2 a:hover:before {
   opacity: 1;
+}
+#content article a {
+  color: #777;
 }
