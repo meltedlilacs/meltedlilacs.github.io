@@ -9,6 +9,7 @@
   <main id="content">
     <article>
       <h2>{{ page.title }}</h2>
+      <small>published {{ post.date | split: " " | first }}</small>
       {{ content }}
     </article>
 </body>
