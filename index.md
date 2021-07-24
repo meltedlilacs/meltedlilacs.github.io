@@ -1,5 +1,6 @@
 ---
 title: Home
-layout: list
-listcategory: blog
+layout: page
 ---
+
+Coming soon
