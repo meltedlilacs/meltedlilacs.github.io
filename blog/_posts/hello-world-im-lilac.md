@@ -3,6 +3,8 @@ title: Hello world, I'm Lilac
 layout: page
 ---
 
+(published 2018-2-9 unpublished 2021-7-24)
+
 Last fall when I came out as non-binary, I did so cautiously. First I tried out they/them pronouns anonymously in online chatrooms. This gave me a low risk way to see how comfortably the pronouns fit me. Then I began telling people, first close friends, then parents and sister, and then others on a case-by-case basis. This piecemeal approach allowed me greater control over the pacing, frequency, and participants of the potentially difficult conversations I needed to have with people, which allowed me to reduce my emotional vulnerability. The downside is that this approach carries a large mental and emotional overhead.
 
 I determined whether or not to come out to individual people based on the frequency with which I interacted with them, how important my interactions with them were, and my expected response from the person. When I was around people who I was still closeted to, a large amount of my attention was inevitably lost to evaluating them based on these three criteria, wondering time and time again if I should come out.
