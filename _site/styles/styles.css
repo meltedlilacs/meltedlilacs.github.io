@@ -1,0 +1,204 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Fanwood;
+  src: url("/assets/fonts/Fanwood.otf") format("opentype");
+  font-variant-ligatures: common-ligatures;
+  font-variant-numeric: proportional-nums;
+}
+@font-face {
+  font-family: Fanwood;
+  font-style: italic;
+  src: url("/assets/fonts/FanwoodItalic.otf") format("opentype");
+  font-variant-ligatures: common-ligatures;
+  font-variant-numeric: proportional-nums;
+}
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #F5EFFF;
+}
+
+html {
+  font-family: "Fanwood", serif;
+  font-size: 16px;
+  color: #222;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+  font-family: "Playfair Display", serif;
+}
+
+h1, h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+blockquote {
+  margin: 1rem 0 1rem 0;
+  padding: 0 0 0 0.5rem;
+  border-left: 1px solid #86608E;
+}
+blockquote p {
+  margin: 0;
+  text-align: justify;
+  text-indent: 2rem;
+}
+blockquote p:last-of-type {
+  text-indent: 0;
+  margin-top: 1rem;
+}
+
+a {
+  overflow-wrap: break-word;
+}
+
+#container_container {
+  max-width: 52rem;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  padding: 1.5rem;
+}
+
+#main_menu_container {
+  width: 12rem;
+  position: fixed;
+  font-size: 16px;
+}
+
+#main_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#main_menu ul ul {
+  padding-left: 1.5rem;
+}
+#main_menu ul li {
+  margin: 0;
+  padding: 0;
+}
+#main_menu h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #222;
+}
+#main_menu a {
+  text-decoration: none;
+  color: #222;
+  transition: 0.25s;
+}
+#main_menu a:before {
+  content: "❧";
+  opacity: 0;
+  display: inline-block;
+  position: absolute;
+  margin-left: -1em;
+  transition: 0.25s;
+}
+#main_menu a:hover:before {
+  opacity: 1;
+}
+#main_menu a[target=_blank]:after {
+  content: "↗";
+}
+
+#content_container {
+  max-width: 39 rem;
+  margin-left: 13rem;
+  font-size: 18px;
+}
+
+#content article {
+  margin: 1rem 0 1rem 0;
+}
+#content article:first-of-type {
+  margin: 0;
+}
+#content article #title {
+  margin: 0;
+  font-weight: bold;
+}
+#content article #subtitle {
+  margin: 0;
+  font-style: italic;
+  font-weight: normal;
+}
+#content article h1, #content article h2, #content article h3, #content article h4, #content article h5, #content article h6 {
+  margin: 0;
+  font-weight: normal;
+}
+#content article h1 a, #content article h2 a, #content article h3 a, #content article h4 a, #content article h5 a, #content article h6 a {
+  text-decoration: none;
+  color: #222;
+  transition: 0.25s;
+}
+#content article h1 a:before, #content article h2 a:before, #content article h3 a:before, #content article h4 a:before, #content article h5 a:before, #content article h6 a:before {
+  content: "❧";
+  opacity: 0;
+  display: inline-block;
+  position: absolute;
+  margin-left: -1rem;
+  transition: 0.25s;
+}
+#content article h1 a:hover:before, #content article h2 a:hover:before, #content article h3 a:hover:before, #content article h4 a:hover:before, #content article h5 a:hover:before, #content article h6 a:hover:before {
+  opacity: 1;
+}
+#content article a {
+  color: #86608E;
+}
+#content article a:hover {
+  color: #C8A2C8;
+}
+#content article p {
+  text-align: justify;
+}
+#content article p:first-of-type {
+  margin-top: 0.5rem !important;
+}
+#content article > p {
+  margin: 0;
+  text-indent: 2rem;
+}
+
+.bibliography {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.bibliography li {
+  margin-top: 1rem;
+}
+.bibliography :target {
+  background-color: #C8A2C8;
+}
+.bibliography :target a {
+  color: #F5EFFF !important;
+}
+.bibliography :target a:hover {
+  color: #86608E !important;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+figure img {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */

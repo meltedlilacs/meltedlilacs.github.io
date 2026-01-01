@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ page.title }} | Melted Lilacs</title>
+  <title>{{ page.title }} | meltedlilacs</title>
   {% include head.html %}
 </head>
 <body>
-  {% include nav.html %}
-  <div id="content_container">
-    <main id="content">
-      <article>
-        <h2>{{ page.title }}</h2>
-        <small>published {{ page.date | split: " " | first }}</small>
-        {{ content }}
-      </article>
-    </main>
+  <div id="container_container">
+    {% include nav.html %}
+    <div id="content_container">
+      <main id="content">
+        <article>
+          <h2 id="title">
+            {{ page.title }}
+            {% if page.subtitle %}
+              {% if page.subtitlestyle == "newline" %}
+                </h2>
+                <h3><i id="subtitle">{{ page.subtitle }}</i></h3>
+              {% else %}
+                | <i id="subtitle">{{ page.subtitle }}</i>
+                </h2>
+              {% endif %}
+            {% endif %}
+        </article>
+        <article>
+          {{ content }}
+        </article>
+      </main>
+    </div>
   </div>
 </body>
 </html>

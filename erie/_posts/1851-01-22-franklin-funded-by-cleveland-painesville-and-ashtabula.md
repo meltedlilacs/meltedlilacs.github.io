@@ -1,0 +1,9 @@
+---
+title: Franklin Canal Company funds Erie and Ohio Division railroad
+layout: event
+tags: [Franklin Canal Company, Cleveland Painesville and Ashtabula Railroad, Erie and North East Railroad]
+---
+
+The Franklin Canal Company planned, through a liberal interpretation of their amended charter, to build a railroad from the Cleveland, Painesville and Ashtabula Railroad's terminus at the Ohio border to the Erie and North East Railroad's terminus at the Erie railroad station. The road would be built with a 4'10" gauge, the same as Ohio's state gauge. This railroad would be called the Erie and Ohio Division, though the company never constructed any other division. They provided 3 legal opinions arguing that this road was allowed under their charter, as it approached Lake Erie through the most advantageous route, furthest from the lake at the Ohio border, and closest at Erie {% cite PennsylvaniaSectionErie1851 -l 14-24 %}. The track would be 25.5 miles long, and was estimated to cost a total of $632,000 to build {% cite PennsylvaniaSectionErie1851 -l 4 %}. The route included a wooden trestle 115 feet high and 1,400 feet long crossing Elk Creek valley {% cite millerTwentiethCenturyHistory1909 -l 469 %}.
+
+In order to fund this expense, the Franklin Canal Company used a provision of the Erie Canal Company's charter, which was used as a general charter for the Franklin company, to sell $400,000 of bonds to George S. Coe of the Ohio Life and Trust Company. These bonds were further guaranteed by the Cleveland, Painesville and Ashtabula Railroad, under an 1850 Ohio law encouraging neighboring states to build connecting railroads to Ohio {% cite PennsylvaniaSectionErie1851 -l 12 %}.

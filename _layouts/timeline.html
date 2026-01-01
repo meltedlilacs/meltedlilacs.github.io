@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }} | meltedlilacs</title>
+  {% include head.html %}
+</head>
+<body>
+  <div id="container_container">
+    {% include nav.html %}
+    <div id="content_container">
+      <main id="content">
+        <article>
+          <h2 id="title">
+            {{ page.title }}
+            {% if page.subtitle %}
+              {% if page.subtitlestyle == "newline" %}
+                </h2>
+                <h3><i id="subtitle">{{ page.subtitle }}</i></h3>
+              {% else %}
+                | <i id="subtitle">{{ page.subtitle }}</i>
+                </h2>
+              {% endif %}
+            {% endif %}
+          </h2>
+          {{ content }}
+        </article>
+
+        {% for post in site.categories[page.listcategory] reversed %}
+          <article>
+            <!-- <h2><a href="{{ post.url }}">{{ post.date | date_to_string: "ordinal", "US" }} | {{ post.title }}</a></h2> -->
+            <h3>{{ post.date | date_to_string: "ordinal", "US" }} | {{ post.title }}</h3>
+            {{ post.content }}
+            <!-- <p><a href="{{ post.url }}"><em>read more</em></a></p> -->
+            <!-- <p>Tags: {{ post.tags }}</p> -->
+          </article>
+        {% endfor %}
+      </main>
+    </div>
+  </div>
+</body>
+</html>

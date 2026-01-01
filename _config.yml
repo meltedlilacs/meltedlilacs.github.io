@@ -1,2 +1,19 @@
-permalink: /:categories/:title/
+permalink: /:categories/:year/:month/:day/:title:output_ext
 baseurl: http://www.meltedlilacs.com
+scholar:
+  style: apa
+  relative: "references.html"
+  bibtex_filters:
+    - smallcaps
+    - superscript
+    - italics
+    - textit
+    - lowercase
+    - textregistered
+    - tiny
+    - latex
+    - markdowncustom
+  bibliography_list_tag: ul
+  sort_by: author
+jekyll-figure:
+  paragraphs: false

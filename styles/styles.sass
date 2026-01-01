@@ -1,0 +1,175 @@
+---
+---
+
+$pale_lilac  : #F5EFFF
+$light_lilac : #C8A2C8
+$dark_lilac  : #86608E
+$dark_grey   : #222
+$medium_grey : #777
+$light_grey  : #DDD
+
+@font-face
+  font-family: Fanwood
+  src: url("/assets/fonts/Fanwood.otf") format("opentype")
+  font-variant-ligatures: common-ligatures
+  font-variant-numeric: proportional-nums
+
+@font-face
+  font-family: Fanwood
+  font-style: italic
+  src: url("/assets/fonts/FanwoodItalic.otf") format("opentype")
+  font-variant-ligatures: common-ligatures
+  font-variant-numeric: proportional-nums
+
+*
+  box-sizing: border-box
+html, body
+  margin: 0
+  padding: 0
+  background: $pale_lilac
+
+html
+  // font-family: 'Alice', serif
+  font-family: 'Fanwood', serif
+  font-size: 16px
+  color: $dark_grey
+h1, h2, h3, h4, h5, h6, nav
+  font-family: 'Playfair Display', serif
+h1, h2
+  font-size: 1.5rem
+h3
+  font-size: 1.25rem
+h4
+  font-size: 1rem
+// blockquote, pre
+//   padding: 1rem
+//   margin: 1rem 0
+//   border-left: 0.5rem solid $dark_lilac
+//   background: $light_grey
+//   & *:first-child
+//     margin-top: 0
+//   & *:last-child
+//     margin-bottom: 0
+blockquote
+  margin: 1rem 0 1rem 0
+  padding: 0 0 0 0.5rem
+  border-left: 1px solid $dark_lilac
+  p
+    margin: 0
+    text-align: justify
+    text-indent: 2rem
+    &:last-of-type
+      text-indent: 0
+      margin-top: 1rem
+  // & > p
+  //   // margin: 0
+  //   text-indent: 2rem
+a
+  overflow-wrap: break-word
+
+#container_container
+  max-width: 52rem
+  margin: 0 auto
+  position: relative
+  top: 0
+  bottom: 0
+  height: 100%
+  padding: 1.5rem
+
+#main_menu_container
+  width: 12rem
+  position: fixed
+  font-size: 16px
+#main_menu
+  ul
+    margin: 0
+    padding: 0
+    list-style-type: none
+    ul
+      padding-left: 1.5rem
+    li
+      margin: 0
+      padding: 0
+  h1
+    font-size: 1.5rem
+    margin: 0
+    padding: 0
+    border-bottom: 1px solid $dark_grey
+  a
+    text-decoration: none
+    color: $dark_grey
+    transition: 0.25s
+    &:before
+        content: "❧"
+        opacity: 0
+        display: inline-block
+        position: absolute
+        margin-left: -1em
+        transition: 0.25s
+    &:hover:before
+      opacity: 1
+    &[target="_blank"]:after
+      content: "\2197" // 2197 2BBA 2B0F
+
+#content_container
+  max-width: (52-13)rem
+  margin-left: 13rem
+  font-size: 18px
+#content
+  article
+    margin: 1rem 0 1rem 0
+    &:first-of-type
+      margin: 0
+    #title
+      margin: 0
+      font-weight: bold
+    #subtitle
+      margin: 0
+      font-style: italic
+      font-weight: normal
+    h1, h2, h3, h4, h5, h6
+      margin: 0
+      font-weight: normal
+      a
+        text-decoration: none
+        color: $dark_grey
+        transition: 0.25s
+        &:before
+          content: "❧"
+          opacity: 0
+          display: inline-block
+          position: absolute
+          margin-left: -1rem
+          transition: 0.25s
+        &:hover:before
+          opacity: 1
+    a
+      color: $dark_lilac
+      &:hover
+        color: $light_lilac
+    p
+      text-align: justify
+      &:first-of-type
+        margin-top: 0.5rem !important
+    & > p
+      margin: 0
+      text-indent: 2rem
+
+.bibliography
+  margin: 0
+  padding: 0
+  list-style: none
+  li
+    margin-top: 1rem
+  :target
+    background-color: $light_lilac
+    a
+      color: $pale_lilac !important
+      &:hover
+        color: $dark_lilac !important
+
+figure
+  margin: 0
+  padding: 0
+  img
+    max-width: 100%

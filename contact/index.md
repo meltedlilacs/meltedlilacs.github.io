@@ -3,4 +3,4 @@ title: Contact
 layout: page
 ---
 
-Coming soon
+sitename at gmail dot com

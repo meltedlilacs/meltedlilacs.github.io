@@ -1,0 +1,20 @@
+permalink: /:categories/:year/:month/:day/:title:output_ext
+baseurl: 
+url: http://127.0.0.1:4000
+scholar:
+  style: apa
+  relative: "references.html"
+  bibtex_filters:
+    - smallcaps
+    - superscript
+    - italics
+    - textit
+    - lowercase
+    - textregistered
+    - tiny
+    - latex
+    - markdowncustom
+  bibliography_list_tag: ul
+  sort_by: author
+jekyll-figure:
+  paragraphs: false
